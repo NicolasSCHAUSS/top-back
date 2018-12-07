@@ -14,7 +14,7 @@ public class Collegue {
 
     private String pseudo;
     
-    private String avatar;
+    private String photo;
     
     private Integer score;
     
@@ -31,7 +31,7 @@ public class Collegue {
 
     public Collegue(String pseudo, String avatar, String nom, String prenom, String adresse) {
         this.pseudo = pseudo;
-        this.avatar = avatar;
+        this.photo = avatar;
         this.score = 500;
         this.nom = nom;
         this.prenom = prenom;
@@ -55,12 +55,12 @@ public class Collegue {
         this.pseudo = name;
     }
 
-	public String getAvatar() {
-		return avatar;
+	public String getPhoto() {
+		return photo;
 	}
 
-	public void setAvatar(String avatar) {
-		this.avatar = avatar;
+	public void setPhoto(String avatar) {
+		this.photo = avatar;
 	}
 
 	public Integer getScore() {
